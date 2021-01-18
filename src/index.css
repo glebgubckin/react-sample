@@ -1,13 +1,97 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500?fammily=Lato&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.header {
+  background: #4183d7;
+}
+
+.header-wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.navigation {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #fcb941;
+}
+
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.form-group input {
+  width: 230px;
+  padding: 5px;
+  border: #4183d7 2px solid;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.auth-error {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.form-btn {
+  width: 180px;
+  height: auto;
+  padding: 10px 0;
+  border: none;
+  background: #4183d7;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-title {
+  padding-bottom: 1rem;
 }
