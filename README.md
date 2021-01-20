@@ -2,7 +2,7 @@
 Выполнение тестового задания на React/Redux
 Ссылка на тестовое задание - https://hackmd.io/@b1hdcBB2Qmu9KtH_ycT20Q/BJWYLsmD4?type=view
 
-Username: Admin
+Username: Admin  
 Password: 12345
 
 # Про приложение
